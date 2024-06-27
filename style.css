@@ -1,0 +1,60 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+h1{
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    height:50vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.log-btn{
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+}
+.log-btn button{
+    padding: 10px;
+    border: 2px solid black;
+}
+.display{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    margin-top:20px;
+    gap: 20px;
+}
+#orange{
+    height:40px;
+    width:300px;
+    background-color: rgb(255, 81, 0);
+    border-radius: 1rem;
+    text-align: center;
+
+}
+#yellow{
+    background-color: rgb(201, 189, 13);
+    height:40px;
+    width: 300px;
+    border-radius: 1rem;
+    text-align: center;
+}
